@@ -2,7 +2,7 @@
   {
     "index": 1,
     "id": "9e3e3994-a3ed-47ca-a014-d4483884cfe2",
-    "featuredImage": "https://images.unsplash.com/photo-1611783398974-18d64fdad700?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=764&q=80",
+    "featuredImage": "https://firebasestorage.googleapis.com/v0/b/tunezhut-92c4f.appspot.com/o/artwork%2Fkurdi%20klymax%2Fwhydblur.jpg?alt=media&token=d95b168a-df49-4cd1-8926-0ceba0dd29cd",
     "title": "Lenovo’s smarter devices stoke professional passions ",
     "desc": "Aenean lectus. Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum.",
     "date": "May 20, 2021",
@@ -16,6 +16,7 @@
     "categoriesId": [3, 12],
     "postType": "standard"
   },
+
   {
     "index": 2,
     "id": "af92a665-4a4d-4cff-9e17-89456df21fb5",
@@ -34,6 +35,7 @@
     "postType": "video",
     "videoUrl": "https://www.youtube.com/watch?v=U5afsxvz75c"
   },
+
   {
     "index": 3,
     "id": "dffe0224-ebff-4803-bb66-e8d128656284",

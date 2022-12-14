@@ -22,10 +22,7 @@ import PageDashboard from "containers/PageDashboard/PageDashboard";
 import PageSubcription from "containers/PageSubcription/PageSubcription";
 import HeaderContainer from "containers/HeaderContainer/HeaderContainer";
 import PageHome from "containers/PageHome/PageHome";
-import PageHomeDemo2 from "containers/PageHome/PageHomeDemo2";
-import PageHomeDemo3 from "containers/PageHome/PageHomeDemo3";
 import PageAuthorV2 from "containers/PageAuthor/PageAuthorV2";
-import PageHomeDemo4 from "containers/PageHome/PageHomeDemo4";
 import PageSearchV2 from "containers/PageSearch/PageSearchV2";
 import MediaRunningContainer from "containers/MediaRunningContainer/MediaRunningContainer";
 import PageSingleGallery from "containers/PageSingleGallery/PageSingleGallery";
@@ -33,11 +30,8 @@ import PageSingleAudio from "containers/PageSingleAudio/PageSingleAudio";
 import PageSingleVideo from "containers/PageSingleVideo/PageSingleVideo";
 import PageArchiveVideo from "containers/PageArchive/PageArchiveVideo";
 import PageArchiveAudio from "containers/PageArchive/PageArchiveAudio";
-import PageHomeDemo5 from "containers/PageHome/PageHomeDemo5";
-import PageHomeDemo6 from "containers/PageHome/PageHomeDemo6";
 import MediaRunningContainerForSafari from "containers/MediaRunningContainer/MediaRunningContainerForSafari";
 import isSafariBrowser from "utils/isSafariBrowser";
-import PageHomeDemo7 from "containers/PageHome/PageHomeDemo7";
 import PageSingleTemp4Sidebar from "containers/PageSingle/PageSingleTemp4Sidebar";
 
 export const pages: Page[] = [
@@ -102,22 +96,11 @@ export const pages: Page[] = [
   { path: "/forgot-pass", component: PageForgotPass },
   { path: "/dashboard", component: PageDashboard },
   { path: "/subscription", component: PageSubcription },
-  //
-  { path: "/home-demo-2", component: PageHomeDemo2 },
-  { path: "/home-demo-3", component: PageHomeDemo3 },
-  { path: "/home-demo-4", component: PageHomeDemo4 },
-  { path: "/home-demo-5", component: PageHomeDemo5 },
-  { path: "/home-demo-6", component: PageHomeDemo6 },
-  { path: "/home-demo-7", component: PageHomeDemo7 },
-  //
 ];
 
 const Routes = () => {
   return (
     <BrowserRouter
-      basename={
-        import.meta.env.VITE_LRT_OR_RTL === "rtl" ? "/ncmaz-rtl" : "#"
-      }
     >
       <ScrollToTop />
       <HeaderContainer />

@@ -55,6 +55,33 @@ const PageHome: React.FC = () => {
             className="pt-10 pb-16 md:py-16 lg:pb-28 lg:pt-24 "
             posts={POSTS.filter((_, i) => i < 3)}
           />
+         {/* === SECTION 6 === */}
+          <div className="relative py-16">
+            <BackgroundSection />
+            <SectionSliderPosts
+              postCardName="card9"
+              heading="Explore latest audio articles"
+              subHeading="Click on the icon to enjoy the music or podcast 🎧"
+              sliderStype="style2"
+              posts={DEMO_POSTS_AUDIO.filter((_, i) => i > 3 && i < 10)}
+              uniqueSliderClass="pageHome-section6"
+            />
+          </div>
+          <div className="container ">
+          {/* === SECTION 9 === */}
+          <SectionMagazine8
+            className="py-16 lg:py-28"
+            posts={DEMO_POSTS_AUDIO.filter((_, i) => i < 6)}
+          />
+          </div>
+          
+          {/* === SECTION 9 === */}
+          <div className="relative py-16">
+            <BackgroundSection />
+            <SectionMagazine9
+              posts={DEMO_POSTS_AUDIO.filter((_, i) => i >= 6 && i < 16)}
+            />
+          </div>
 
           {/* === SECTION  === */}
           <div className="relative py-16">
@@ -77,18 +104,7 @@ const PageHome: React.FC = () => {
             uniqueSliderClass="pageHome-section5"
           />
 
-          {/* === SECTION 6 === */}
-          <div className="relative py-16">
-            <BackgroundSection />
-            <SectionSliderPosts
-              postCardName="card9"
-              heading="Explore latest audio articles"
-              subHeading="Click on the icon to enjoy the music or podcast 🎧"
-              sliderStype="style2"
-              posts={DEMO_POSTS_AUDIO.filter((_, i) => i > 3 && i < 10)}
-              uniqueSliderClass="pageHome-section6"
-            />
-          </div>
+          
 
           {/* === SECTION 4 === */}
           <SectionMagazine1
@@ -122,21 +138,7 @@ const PageHome: React.FC = () => {
           </div>
         </div>
 
-        <div className="container ">
-          {/* === SECTION 9 === */}
-          <SectionMagazine8
-            className="py-16 lg:py-28"
-            posts={DEMO_POSTS_AUDIO.filter((_, i) => i < 6)}
-          />
-
-          {/* === SECTION 9 === */}
-          <div className="relative py-16">
-            <BackgroundSection />
-            <SectionMagazine9
-              posts={DEMO_POSTS_AUDIO.filter((_, i) => i >= 6 && i < 16)}
-            />
-          </div>
-
+        <div>
           {/* === SECTION 5 === */}
           <SectionGridAuthorBox
             className="py-16 lg:py-28"

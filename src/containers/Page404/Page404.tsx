@@ -15,10 +15,10 @@ const Page404: React.FC = () => (
           404
         </h1>
         <span className="block text-sm text-neutral-800 sm:text-base dark:text-neutral-200 tracking-wider font-medium">
-          THE PAGE YOU WERE LOOKING FOR DOESN'T EXIST.{" "}
+          Oh Oh alaye You don Lost😂😂😂.{" "}
         </span>
         <ButtonPrimary href="/" className="mt-4">
-          Return Home Page
+          Fly Home Page
         </ButtonPrimary>
       </header>
     </div>
