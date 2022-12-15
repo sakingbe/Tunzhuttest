@@ -297,13 +297,7 @@ const templateChilds: NavItemType[] = [
 ];
 
 export const NAVIGATION_DEMO: NavItemType[] = [
-  {
-    id: ncNanoId(),
-    href: "/",
-    name: "Home",
-    type: "dropdown",
-    children: 
-  },
+
   {
     id: ncNanoId(),
     href: "#",
@@ -332,27 +326,5 @@ export const NAVIGATION_DEMO: NavItemType[] = [
     name: "Other pages",
     type: "dropdown",
     children: otherPageChildMenus,
-  },
-];
-
-export const NAVIGATION_SHORT_DEMO: NavItemType[] = [
-  {
-    id: ncNanoId(),
-    href: "/",
-    name: "Home",
-    type: "dropdown",
-    children: 
-  },
-  {
-    id: ncNanoId(),
-    href: "#",
-    name: "Discover",
-    type: "megaMenu",
-    megaMenu: megaMenu3ItemDemo,
-  },
-  {
-    id: ncNanoId(),
-    href: "/about",
-    name: "How it works",
   },
 ];
