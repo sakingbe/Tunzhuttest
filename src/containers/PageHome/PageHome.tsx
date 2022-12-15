@@ -60,8 +60,8 @@ const PageHome: React.FC = () => {
             <BackgroundSection />
             <SectionSliderPosts
               postCardName="card9"
-              heading="Explore latest audio articles"
-              subHeading="Click on the icon to enjoy the music or podcast 🎧"
+              heading="Check out our latest releases"
+              subHeading="For the best expirince plug in your Headphones🎧"
               sliderStype="style2"
               posts={DEMO_POSTS_AUDIO.filter((_, i) => i > 3 && i < 10)}
               uniqueSliderClass="pageHome-section6"
