@@ -4,7 +4,6 @@ import Logo from "components/Logo/Logo";
 import MenuBar from "components/MenuBar/MenuBar";
 import Navigation from "components/Navigation/Navigation";
 import DarkModeContainer from "containers/DarkModeContainer/DarkModeContainer";
-import { NAVIGATION_SHORT_DEMO } from "data/navigation";
 import React, { FC } from "react";
 import AvatarDropdown from "./AvatarDropdown";
 import NotifyDropdown from "./NotifyDropdown";
@@ -56,7 +55,6 @@ const MainNav2Logged: FC<MainNav2LoggedProps> = () => {
         </div>
         <div className="flex-shrink-0 flex items-center justify-end text-neutral-700 dark:text-neutral-100 space-x-1">
           <div className="hidden items-center xl:flex space-x-2">
-            <Navigation navigations={NAVIGATION_SHORT_DEMO} />
             <div className="hidden sm:block h-6 border-l border-neutral-300 dark:border-neutral-6000"></div>
             <div className="flex">
               <DarkModeContainer />
