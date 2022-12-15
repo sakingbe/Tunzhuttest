@@ -302,7 +302,7 @@ export const NAVIGATION_DEMO: NavItemType[] = [
     href: "/",
     name: "Home",
     type: "dropdown",
-    children: demoChildMenus,
+    children: 
   },
   {
     id: ncNanoId(),
@@ -341,7 +341,7 @@ export const NAVIGATION_SHORT_DEMO: NavItemType[] = [
     href: "/",
     name: "Home",
     type: "dropdown",
-    children: demoChildMenus,
+    children: 
   },
   {
     id: ncNanoId(),
