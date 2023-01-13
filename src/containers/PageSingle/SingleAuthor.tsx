@@ -1,4 +1,4 @@
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import { PostAuthorType } from "data/types";
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
@@ -11,8 +11,8 @@ const SingleAuthor: FC<SingleAuthorProps> = ({ author }) => {
   return (
     <div className="nc-SingleAuthor flex">
       <Link to={author.href}>
-        <Avatar
-          imgUrl={author.avatar}
+        <artist
+          imgUrl={author.artist}
           userName={author.displayName}
           sizeClass="h-12 w-12 text-lg sm:text-xl sm:h-24 sm:w-24 "
           radius="rounded-xl"

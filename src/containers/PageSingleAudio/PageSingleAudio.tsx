@@ -97,7 +97,7 @@ const PageSingleAudio: FC<PageSingleAudioProps> = ({ className = "" }) => {
         {/* Overlay */}
         <div className="bg-primary-50 dark:bg-neutral-800 absolute top-0 inset-x-0 h-60 w-full"></div>
         <Helmet>
-          <title>Single Audio || Blog Magazine React Template</title>
+          <title>Single Audio || #1 Music Destribution Plug</title>
         </Helmet>
 
         {/* SINGLE_AUDIO HEADER */}

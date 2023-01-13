@@ -5,7 +5,7 @@ import MenuBar from "components/MenuBar/MenuBar";
 import Navigation from "components/Navigation/Navigation";
 import DarkModeContainer from "containers/DarkModeContainer/DarkModeContainer";
 import React, { FC } from "react";
-import AvatarDropdown from "./AvatarDropdown";
+import artistDropdown from "./artistDropdown";
 import NotifyDropdown from "./NotifyDropdown";
 
 export interface MainNav2LoggedProps {}
@@ -65,11 +65,11 @@ const MainNav2Logged: FC<MainNav2LoggedProps> = () => {
               Create
             </ButtonPrimary>
             <div></div>
-            <AvatarDropdown />
+            <artistDropdown />
           </div>
           <div className="flex items-center space-x-3 xl:hidden">
             <NotifyDropdown />
-            <AvatarDropdown />
+            <artistDropdown />
             <MenuBar />
           </div>
         </div>

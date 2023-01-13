@@ -3,7 +3,7 @@ import NcImage from "components/NcImage/NcImage";
 import { PostDataType } from "data/types";
 import { Link } from "react-router-dom";
 import CategoryBadgeList from "components/CategoryBadgeList/CategoryBadgeList";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import PostTypeFeaturedIcon from "components/PostTypeFeaturedIcon/PostTypeFeaturedIcon";
 
 export interface Card14Props {
@@ -60,11 +60,11 @@ const Card14: FC<Card14Props> = ({
             to={author.href}
             className="relative flex items-center space-x-2"
           >
-            <Avatar
+            <artist
               radius="rounded-full"
               containerClassName="ring-2 ring-white"
               sizeClass="h-7 w-7 text-sm"
-              imgUrl={author.avatar}
+              imgUrl={author.artist}
               userName={author.displayName}
             />
             <span className="block text-white truncate">

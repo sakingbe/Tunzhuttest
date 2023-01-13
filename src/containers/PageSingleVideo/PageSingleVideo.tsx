@@ -88,7 +88,7 @@ const PageSingleVideo: FC<PageSingleVideoProps> = ({ className = "" }) => {
               className="leading-none flex-shrink-0"
               meta={SINGLE_VIDEO}
               hiddenCategories
-              avatarRounded="rounded-full shadow-inner"
+              artistRounded="rounded-full shadow-inner"
             />
             <SingleMetaAction2 meta={SINGLE_VIDEO} />
           </div>

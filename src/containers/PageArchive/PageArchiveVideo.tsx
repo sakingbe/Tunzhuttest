@@ -13,7 +13,7 @@ import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import SectionGridCategoryBox from "components/SectionGridCategoryBox/SectionGridCategoryBox";
 import ButtonSecondary from "components/Button/ButtonSecondary";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
-import { DEMO_AUTHORS } from "data/authors";
+import { DEMO_AUTHORS } from "data/artists";
 import Card10V2 from "components/Card10/Card10V2";
 
 export interface PageArchiveVideoProps {
@@ -40,7 +40,7 @@ const PageArchiveVideo: FC<PageArchiveVideoProps> = ({ className = "" }) => {
       data-nc-id="PageArchiveVideo"
     >
       <Helmet>
-        <title>Archive || Blog Magazine React Template</title>
+        <title>Archive || #1 Music Destribution Plug</title>
       </Helmet>
 
       <div className="dark bg-neutral-900 dark:bg-transparent text-white">

@@ -15,7 +15,7 @@ import SectionGridCategoryBox from "components/SectionGridCategoryBox/SectionGri
 import { DEMO_CATEGORIES } from "data/taxonomies";
 import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
-import { DEMO_AUTHORS } from "data/authors";
+import { DEMO_AUTHORS } from "data/artists";
 import Card11 from "components/Card11/Card11";
 import CardCategory2 from "components/CardCategory2/CardCategory2";
 import Tag from "components/Tag/Tag";

@@ -1,19 +1,19 @@
 import React, { FC } from "react";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import { PostDataType } from "data/types";
 import { Link } from "react-router-dom";
 
 export interface PostCardMetaProps {
   className?: string;
   meta: Pick<PostDataType, "date" | "author">;
-  hiddenAvatar?: boolean;
+  hiddenartist?: boolean;
   size?: "large" | "normal";
 }
 
 const PostCardMeta: FC<PostCardMetaProps> = ({
   className = "leading-none",
   meta,
-  hiddenAvatar = false,
+  hiddenartist = false,
   size = "normal",
 }) => {
   const { date, author } = meta;
@@ -25,13 +25,13 @@ const PostCardMeta: FC<PostCardMetaProps> = ({
       data-nc-id="PostCardMeta"
     >
       <Link to={author.href} className="relative flex items-center space-x-2">
-        {!hiddenAvatar && (
-          <Avatar
+        {!hiddenartist && (
+          <artist
             radius="rounded-full"
             sizeClass={
               size === "normal" ? "h-7 w-7 text-sm" : "h-10 w-10 text-xl"
             }
-            imgUrl={author.avatar}
+            imgUrl={author.artist}
             userName={author.displayName}
           />
         )}

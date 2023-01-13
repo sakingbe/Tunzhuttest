@@ -1,4 +1,4 @@
-import CardLarge1 from "components/CardLarge1/CardLarge1";
+import CardLarge1 from "components/Featuredp/Featuredpc";
 import Heading from "components/Heading/Heading";
 import { PostDataType } from "data/types";
 import React, { FC, useState } from "react";
@@ -11,7 +11,7 @@ export interface SectionLargeSliderProps {
 
 const SectionLargeSlider: FC<SectionLargeSliderProps> = ({
   posts,
-  heading = "Editor's pick",
+  heading = "Latest Hits🤩",
   className = "",
 }) => {
   const [indexActive, setIndexActive] = useState(0);

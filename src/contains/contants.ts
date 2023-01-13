@@ -1,4 +1,4 @@
-const avatarColors = [
+const artistColors = [
   "#ffdd00",
   "#fbb034",
   "#ff4c4c",
@@ -27,4 +27,4 @@ const avatarColors = [
   "#E208A7",
 ];
 
-export { avatarColors };
+export { artistColors };

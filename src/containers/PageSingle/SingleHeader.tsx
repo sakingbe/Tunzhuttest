@@ -26,7 +26,7 @@ const SingleHeader: FC<SingleHeaderProps> = ({
   return (
     <>
       <Helmet>
-        <title>Single || Blog Magazine React Template</title>
+        <title>Single || #1 Music Destribution Plug</title>
       </Helmet>
       <div className={`nc-SingleHeader ${className}`}>
         <div className="space-y-5">
@@ -44,7 +44,7 @@ const SingleHeader: FC<SingleHeaderProps> = ({
               className="leading-none flex-shrink-0"
               meta={pageData}
               hiddenCategories
-              avatarRounded="rounded-full shadow-inner"
+              artistRounded="rounded-full shadow-inner"
             />
             <SingleMetaAction2 meta={pageData} />
           </div>

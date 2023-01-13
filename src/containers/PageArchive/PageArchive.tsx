@@ -15,7 +15,7 @@ import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import SectionGridCategoryBox from "components/SectionGridCategoryBox/SectionGridCategoryBox";
 import ButtonSecondary from "components/Button/ButtonSecondary";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
-import { DEMO_AUTHORS } from "data/authors";
+import { DEMO_AUTHORS } from "data/artists";
 
 export interface PageArchiveProps {
   className?: string;
@@ -41,7 +41,7 @@ const PageArchive: FC<PageArchiveProps> = ({ className = "" }) => {
       data-nc-id="PageArchive"
     >
       <Helmet>
-        <title>Archive || Blog Magazine React Template</title>
+        <title>Archive || #1 Music Destribution Plug</title>
       </Helmet>
 
       {/* HEADER */}

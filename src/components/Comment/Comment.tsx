@@ -1,12 +1,12 @@
-import Avatar from "components/Avatar/Avatar";
-import { _getPersonNameRd } from "contains/fakeData";
+import artist from "components/artist/artist";
+import { _getPersonNameRd } from "contains/data";
 import React, { FC } from "react";
 
 export interface CommentProps {
   date: string;
   user: {
     name: string;
-    avatar: string;
+    artist: string;
   };
   content: string;
 }
@@ -15,8 +15,8 @@ const Comment: FC<CommentProps> = ({ date, content, user }) => {
   return (
     <div className="ttnc-Comment relative pb-8 border-b border-gray-300 dark:border-gray-700">
       <div className="flex space-x-8">
-        <Avatar
-          imgUrl={user.avatar}
+        <artist
+          imgUrl={user.artist}
           userName={user.name}
           sizeClass="w-12 h-12 lg:w-20 lg:h-20"
           radius="rounded-none"

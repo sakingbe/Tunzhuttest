@@ -1,5 +1,5 @@
 import React, { FC, useRef, useState } from "react";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import NcDropDown from "components/NcDropDown/NcDropDown";
 import CommentCardLikeReplyContainer from "containers/CommentCardLikeReplyContainer/CommentCardLikeReplyContainer";
 import { PostAuthorType } from "data/types";
@@ -105,8 +105,8 @@ const CommentCard: FC<CommentCardProps> = ({
         data-comment-id={id}
         data-comment-parent-id={parentId}
       >
-        <Avatar
-          imgUrl={author.avatar}
+        <artist
+          imgUrl={author.artist}
           userName={author.displayName}
           sizeClass={`h-6 w-6 text-base ${
             size === "large" ? "sm:text-lg sm:h-8 sm:w-8" : ""

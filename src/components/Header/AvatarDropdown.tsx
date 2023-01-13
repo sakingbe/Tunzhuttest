@@ -1,21 +1,21 @@
 import { Popover, Transition } from "@headlessui/react";
-import Avatar from "components/Avatar/Avatar";
-import { avatarImgs } from "contains/fakeData";
+import artist from "components/artist/artist";
+import { artistImgs } from "contains/data";
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
-export default function AvatarDropdown() {
+export default function artistDropdown() {
   return (
-    <div className="AvatarDropdown">
+    <div className="artistDropdown">
       <Popover className="relative">
         {({ open }) => (
           <>
             <Popover.Button
               className={`inline-flex items-center focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
-              <Avatar
+              <artist
                 radius="rounded-full"
-                imgUrl={avatarImgs[1]}
+                imgUrl={artistImgs[1]}
                 sizeClass="w-8 h-8 sm:w-9 sm:h-9"
               />
             </Popover.Button>
@@ -32,8 +32,8 @@ export default function AvatarDropdown() {
                 <div className="overflow-hidden rounded-3xl shadow-lg ring-1 ring-black ring-opacity-5">
                   <div className="relative grid grid-cols-1 gap-6 bg-white dark:bg-neutral-800 py-7 px-6">
                     <div className="flex items-center space-x-3">
-                      <Avatar
-                        imgUrl={avatarImgs[1]}
+                      <artist
+                        imgUrl={artistImgs[1]}
                         sizeClass="w-12 h-12"
                         radius="rounded-full"
                       />

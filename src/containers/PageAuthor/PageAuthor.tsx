@@ -3,10 +3,10 @@ import { DEMO_POSTS } from "data/posts";
 import { PostAuthorType, PostDataType } from "data/types";
 import Pagination from "components/Pagination/Pagination";
 import ButtonPrimary from "components/Button/ButtonPrimary";
-import { DEMO_AUTHORS } from "data/authors";
+import { DEMO_AUTHORS } from "data/artists";
 import Nav from "components/Nav/Nav";
 import NavItem from "components/NavItem/NavItem";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import SocialsList from "components/SocialsList/SocialsList";
 import ArchiveFilterListBox from "components/ArchiveFilterListBox/ArchiveFilterListBox";
 import { Helmet } from "react-helmet";
@@ -46,7 +46,7 @@ const PageAuthor: FC<PageAuthorProps> = ({ className = "" }) => {
   return (
     <div className={`nc-PageAuthor  ${className}`} data-nc-id="PageAuthor">
       <Helmet>
-        <title>Author || Blog Magazine React Template</title>
+        <title>Author || #1 Music Destribution Plug</title>
       </Helmet>
 
       {/* HEADER */}
@@ -60,9 +60,9 @@ const PageAuthor: FC<PageAuthorProps> = ({ className = "" }) => {
         </div>
         <div className="relative container -mt-20 lg:-mt-48">
           <div className=" bg-white dark:bg-neutral-900 dark:border dark:border-neutral-700 p-5 lg:p-16 rounded-[40px] shadow-2xl flex flex-col sm:flex-row sm:items-center">
-            <Avatar
+            <artist
               containerClassName="ring-4 ring-white dark:ring-0 shadow-2xl"
-              imgUrl={AUTHOR.avatar}
+              imgUrl={AUTHOR.artist}
               sizeClass="w-20 h-20 text-xl lg:text-2xl lg:w-36 lg:h-36"
               radius="rounded-full"
             />

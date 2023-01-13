@@ -16,7 +16,7 @@ import {
   DEMO_POSTS_VIDEO,
 } from "data/posts";
 import { DEMO_CATEGORIES } from "data/taxonomies";
-import { DEMO_AUTHORS } from "data/authors";
+import { DEMO_AUTHORS } from "data/artists";
 import SectionBecomeAnAuthor from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
 import SectionSliderNewCategories from "components/SectionSliderNewCategories/SectionSliderNewCategories";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
@@ -40,7 +40,7 @@ const PageHome: React.FC = () => {
   return (
     <div className="nc-PageHome relative">
       <Helmet>
-        <title>Home || Blog Magazine React Template</title>
+        <title>Home || #1 Music Destribution Plug</title>
       </Helmet>
 
       {/* ======== ALL SECTIONS ======== */}

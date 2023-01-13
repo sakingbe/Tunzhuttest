@@ -1,31 +1,31 @@
-import avatar1 from "data/avatars/1.jpg";
-import avatar2 from "data/avatars/2.jpg";
-import avatar3 from "data/avatars/3.jpg";
-import avatar4 from "data/avatars/4.jpg";
-import avatar6 from "data/avatars/6.jpg";
-import avatar7 from "data/avatars/7.jpg";
-import avatar8 from "data/avatars/8.jpg";
-import avatar9 from "data/avatars/9.jpg";
-import avatar11 from "data/avatars/11.jpg";
-import avatar12 from "data/avatars/12.jpg";
-import avatar13 from "data/avatars/13.jpg";
-import avatar14 from "data/avatars/14.jpg";
-import avatar15 from "data/avatars/15.jpg";
+import artist1 from "data/artists/kurdiklymax.jpg";
+import artist2 from "data/artists/2.jpg";
+import artist3 from "data/artists/3.jpg";
+import artist4 from "data/artists/4.jpg";
+import artist6 from "data/artists/6.jpg";
+import artist7 from "data/artists/7.jpg";
+import artist8 from "data/artists/8.jpg";
+import artist9 from "data/artists/9.jpg";
+import artist11 from "data/artists/11.jpg";
+import artist12 from "data/artists/12.jpg";
+import artist13 from "data/artists/13.jpg";
+import artist14 from "data/artists/14.jpg";
+import artist15 from "data/artists/15.jpg";
 
-export const avatarImgs = [
-  avatar1,
-  avatar2,
-  avatar3,
-  avatar4,
-  avatar6,
-  avatar7,
-  avatar8,
-  avatar9,
-  avatar11,
-  avatar12,
-  avatar13,
-  avatar14,
-  avatar15,
+export const artistImgs = [
+  artist1,
+  artist2,
+  artist3,
+  artist4,
+  artist6,
+  artist7,
+  artist8,
+  artist9,
+  artist11,
+  artist12,
+  artist13,
+  artist14,
+  artist15,
 ];
 
 const personNames = [
@@ -130,14 +130,14 @@ function _getImgHightQualityRd() {
 function _getTagNameRd() {
   return tagNames[Math.floor(Math.random() * tagNames.length)];
 }
-function _getAvatarRd() {
-  return avatarImgs[Math.floor(Math.random() * avatarImgs.length)];
+function _getartistRd() {
+  return artistImgs[Math.floor(Math.random() * artistImgs.length)];
 }
 
 export {
   _getImgRd,
   _getTagNameRd,
-  _getAvatarRd,
+  _getartistRd,
   _getImgHightQualityRd,
   _getTitleRd,
   _getPersonNameRd,

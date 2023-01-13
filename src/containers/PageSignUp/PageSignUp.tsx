@@ -34,7 +34,7 @@ const PageSignUp: FC<PageSignUpProps> = ({ className = "" }) => {
   return (
     <div className={`nc-PageSignUp ${className}`} data-nc-id="PageSignUp">
       <Helmet>
-        <title>Sign up || Blog Magazine React Template</title>
+        <title>Sign up || #1 Music Destribution Plug</title>
       </Helmet>
       <LayoutPage
         subHeading="Welcome to our blog magazine Community"

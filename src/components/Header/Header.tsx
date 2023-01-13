@@ -1,6 +1,6 @@
 import React, { FC, useEffect, useRef, useState } from "react";
 import SocialsShare from "components/SocialsShare/SocialsShare";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import { SinglePageType } from "containers/PageSingle/PageSingle";
 import BookmarkContainer from "containers/BookmarkContainer/BookmarkContainer";
 import PostCardLikeContainer from "containers/PostCardLikeContainer/PostCardLikeContainer";
@@ -113,8 +113,8 @@ const Header: FC<HeaderProps> = ({ mainNavStyle = "style1", currentPage }) => {
         <div className="container">
           <div className="flex justify-end lg:justify-between">
             <div className="hidden lg:flex items-center mr-3">
-              <Avatar
-                imgUrl={author.avatar}
+              <artist
+                imgUrl={author.artist}
                 userName={author.displayName}
                 sizeClass="w-8 h-8 text-lg"
                 radius="rounded-full"

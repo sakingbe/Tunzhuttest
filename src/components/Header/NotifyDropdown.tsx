@@ -1,5 +1,5 @@
 import { Popover, Transition } from "@headlessui/react";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import { Fragment } from "react";
 
 const solutions = [
@@ -78,7 +78,7 @@ export default function NotifyDropdown() {
                         href={item.href}
                         className="flex p-2 pr-8 -m-3 transition duration-150 ease-in-out rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus-visible:ring focus-visible:ring-orange-500 focus-visible:ring-opacity-50 relative"
                       >
-                        <Avatar
+                        <artist
                           sizeClass="w-8 h-8 sm:w-12 sm:h-12"
                           radius="rounded-full"
                         />

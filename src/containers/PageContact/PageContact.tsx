@@ -31,7 +31,7 @@ const PageContact: FC<PageContactProps> = ({ className = "" }) => {
   return (
     <div className={`nc-PageContact ${className}`} data-nc-id="PageContact">
       <Helmet>
-        <title>Contact || Blog Magazine React Template</title>
+        <title>Contact || #1 Music Destribution Plug</title>
       </Helmet>
       <LayoutPage
         subHeading="Drop us message and we will get back for you."

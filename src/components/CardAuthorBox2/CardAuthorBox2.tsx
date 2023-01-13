@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { PostAuthorType } from "data/types";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import { NavLink } from "react-router-dom";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import NcImage from "components/NcImage/NcImage";
 
 export interface CardAuthorBox2Props {
@@ -14,7 +14,7 @@ const CardAuthorBox2: FC<CardAuthorBox2Props> = ({
   className = "",
   author,
 }) => {
-  const { displayName, href = "/", avatar, jobName, count, bgImage } = author;
+  const { displayName, href = "/", artist, jobName, count, bgImage } = author;
   return (
     <NavLink
       to={href}
@@ -36,11 +36,11 @@ const CardAuthorBox2: FC<CardAuthorBox2Props> = ({
       </div>
 
       <div className="-mt-8 m-8 text-center">
-        <Avatar
+        <artist
           containerClassName="ring-2 ring-white"
           sizeClass="w-16 h-16 text-2xl"
           radius="rounded-full"
-          imgUrl={avatar}
+          imgUrl={artist}
           userName={displayName}
         />
         <div className="mt-3">

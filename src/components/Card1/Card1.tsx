@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import { PostDataType } from "data/types";
 import PostCardSaveAction from "components/PostCardSaveAction/PostCardSaveAction";
 import PostCardMeta from "components/PostCardMeta/PostCardMeta";
@@ -21,7 +21,7 @@ const Card1: FC<Card1Props> = ({ className = "", post }) => {
       <Link to={href} className="absolute inset-0 rounded-lg"></Link>
 
       <div className="flex-shrink-0 pt-1 pr-3">
-        <Avatar imgUrl={author.avatar} userName={author.displayName} />
+        <artist imgUrl={author.artist} userName={author.displayName} />
       </div>
       <div className="flex-grow">
         <h2
@@ -32,7 +32,7 @@ const Card1: FC<Card1Props> = ({ className = "", post }) => {
             {title}
           </Link>
         </h2>
-        <PostCardMeta className="mt-3" hiddenAvatar meta={post} />
+        <PostCardMeta className="mt-3" hiddenartist meta={post} />
       </div>
 
       {/* ACTIONS */}

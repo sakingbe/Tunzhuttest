@@ -12,7 +12,7 @@ import SectionSubscribe2 from "components/SectionSubscribe2/SectionSubscribe2";
 import NcImage from "components/NcImage/NcImage";
 import NcLink from "components/NcLink/NcLink";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
-import { DEMO_AUTHORS } from "data/authors";
+import { DEMO_AUTHORS } from "data/artists";
 import ButtonSecondary from "components/Button/ButtonSecondary";
 import { DEMO_CATEGORIES } from "data/taxonomies";
 import SectionGridCategoryBox from "components/SectionGridCategoryBox/SectionGridCategoryBox";

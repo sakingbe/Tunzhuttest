@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { PostDataType } from "data/types";
 import { Link } from "react-router-dom";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import { CardAuthor2Props } from "./CardAuthor2";
 
 export interface CardAuthor2WhiteProps extends CardAuthor2Props {}
@@ -12,18 +12,18 @@ const CardAuthor2White: FC<CardAuthor2WhiteProps> = ({
   readingTime,
   date,
 }) => {
-  const { displayName, href = "/", avatar } = author;
+  const { displayName, href = "/", artist } = author;
   return (
     <Link
       to={href}
       className={`nc-CardAuthor2White relative inline-flex items-center ${className}`}
       data-nc-id="CardAuthor2White"
     >
-      <Avatar
+      <artist
         sizeClass="h-10 w-10 text-base"
         containerClassName="flex-shrink-0 mr-3"
         radius="rounded-full"
-        imgUrl={avatar}
+        imgUrl={artist}
         userName={displayName}
       />
       <div>

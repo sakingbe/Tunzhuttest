@@ -14,7 +14,7 @@ import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import SectionGridCategoryBox from "components/SectionGridCategoryBox/SectionGridCategoryBox";
 import ButtonSecondary from "components/Button/ButtonSecondary";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
-import { DEMO_AUTHORS } from "data/authors";
+import { DEMO_AUTHORS } from "data/artists";
 import Card16Podcast from "components/Card16Podcast/Card16Podcast";
 import Card15Podcast from "components/Card15Podcast/Card15Podcast";
 
@@ -60,7 +60,7 @@ const PageArchiveAudio: FC<PageArchiveAudioProps> = ({ className = "" }) => {
       data-nc-id="PageArchiveAudio"
     >
       <Helmet>
-        <title>Archive || Blog Magazine React Template</title>
+        <title>Archive || #1 Music Destribution Plug</title>
       </Helmet>
 
       {/* HEADER */}

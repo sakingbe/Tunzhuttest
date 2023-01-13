@@ -1,8 +1,8 @@
 import { SinglePageType } from "containers/PageSingle/PageSingle";
 import { DEMO_TAGS } from "./taxonomies";
 import __comments from "./jsons/__comments.json";
-import a10 from "./avatars/11.jpg";
-import { DEMO_AUTHORS } from "./authors";
+import a10 from "./artists/11.jpg";
+import { DEMO_AUTHORS } from "./artists";
 import { CommentType } from "components/CommentCard/CommentCard";
 import podcastImg from "images/podcast.jpg";
 
@@ -46,7 +46,7 @@ export const SINGLE: SinglePageType = {
     lastName: "Fones",
     displayName: "Fones Mimi",
     email: "mfones9@canalblog.com",
-    avatar: a10,
+    artist: a10,
     count: 38,
     href: "/author/the-demo-author-slug",
     desc: "There’s no stopping the tech giant. Apple now opens its 100th store in China.There’s no stopping the tech giant.",
@@ -98,7 +98,7 @@ export const SINGLE_AUDIO: SinglePageType = {
     lastName: "Fones",
     displayName: "Fones Mimi",
     email: "mfones9@canalblog.com",
-    avatar: a10,
+    artist: a10,
     count: 38,
     href: "/author/the-demo-author-slug",
     desc: "There’s no stopping the tech giant. Apple now opens its 100th store in China.There’s no stopping the tech giant.",
@@ -142,7 +142,7 @@ export const SINGLE_VIDEO: SinglePageType = {
     lastName: "Fones",
     displayName: "Fones Mimi",
     email: "mfones9@canalblog.com",
-    avatar: a10,
+    artist: a10,
     count: 38,
     href: "/author/the-demo-author-slug",
     desc: "There’s no stopping the tech giant. Apple now opens its 100th store in China.There’s no stopping the tech giant.",
@@ -186,7 +186,7 @@ export const SINGLE_GALLERY: SinglePageType = {
     lastName: "Fones",
     displayName: "Fones Mimi",
     email: "mfones9@canalblog.com",
-    avatar: a10,
+    artist: a10,
     count: 38,
     href: "/author/the-demo-author-slug",
     desc: "There’s no stopping the tech giant. Apple now opens its 100th store in China.There’s no stopping the tech giant.",

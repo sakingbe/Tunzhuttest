@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { PostDataType } from "data/types";
 import { Link } from "react-router-dom";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 
 export interface CardAuthor2Props
   extends Pick<PostDataType, "date" | "author"> {
@@ -17,18 +17,18 @@ const CardAuthor2: FC<CardAuthor2Props> = ({
   date,
   hoverReadingTime = true,
 }) => {
-  const { displayName, href = "/", avatar } = author;
+  const { displayName, href = "/", artist } = author;
   return (
     <Link
       to={href}
       className={`nc-CardAuthor2 relative inline-flex items-center ${className}`}
       data-nc-id="CardAuthor2"
     >
-      <Avatar
+      <artist
         sizeClass="h-10 w-10 text-base"
         containerClassName="flex-shrink-0 mr-3"
         radius="rounded-full"
-        imgUrl={avatar}
+        imgUrl={artist}
         userName={displayName}
       />
       <div>

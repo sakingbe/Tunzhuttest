@@ -3,7 +3,7 @@ import WidgetAuthors from "components/WidgetAuthors/WidgetAuthors";
 import WidgetCategories from "components/WidgetCategories/WidgetCategories";
 import WidgetPosts from "components/WidgetPosts/WidgetPosts";
 import WidgetTags from "components/WidgetTags/WidgetTags";
-import { DEMO_AUTHORS } from "data/authors";
+import { DEMO_AUTHORS } from "data/artists";
 import { DEMO_POSTS } from "data/posts";
 import { DEMO_CATEGORIES, DEMO_TAGS } from "data/taxonomies";
 import { PostDataType } from "data/types";

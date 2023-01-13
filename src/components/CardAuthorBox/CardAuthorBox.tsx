@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { PostAuthorType } from "data/types";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import { NavLink } from "react-router-dom";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 
 export interface CardAuthorBoxProps {
   className?: string;
@@ -10,17 +10,17 @@ export interface CardAuthorBoxProps {
 }
 
 const CardAuthorBox: FC<CardAuthorBoxProps> = ({ className = "", author }) => {
-  const { displayName, href = "/", avatar, jobName, count } = author;
+  const { displayName, href = "/", artist, jobName, count } = author;
   return (
     <NavLink
       to={href}
       className={`nc-CardAuthorBox flex flex-col items-center justify-center text-center px-3 py-5 sm:px-6 sm:py-7  [ nc-box-has-hover ] [ nc-dark-box-bg-has-hover ] ${className}`}
       data-nc-id="CardAuthorBox"
     >
-      <Avatar
+      <artist
         sizeClass="w-20 h-20 text-2xl"
         radius="rounded-full"
-        imgUrl={avatar}
+        imgUrl={artist}
         userName={displayName}
       />
       <div className="mt-3">

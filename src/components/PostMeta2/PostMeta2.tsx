@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import Avatar from "components/Avatar/Avatar";
+import artist from "components/artist/artist";
 import { PostDataType } from "data/types";
 import { Link } from "react-router-dom";
 
@@ -8,7 +8,7 @@ export interface PostMeta2Props {
   meta: Pick<PostDataType, "date" | "author" | "categories" | "readingTime">;
   hiddenCategories?: boolean;
   size?: "large" | "normal";
-  avatarRounded?: string;
+  artistRounded?: string;
 }
 
 const PostMeta2: FC<PostMeta2Props> = ({
@@ -16,7 +16,7 @@ const PostMeta2: FC<PostMeta2Props> = ({
   meta,
   hiddenCategories = false,
   size = "normal",
-  avatarRounded,
+  artistRounded,
 }) => {
   const { date, author, categories, readingTime } = meta;
   return (
@@ -27,14 +27,14 @@ const PostMeta2: FC<PostMeta2Props> = ({
       data-nc-id="PostMeta2"
     >
       <Link to={author.href} className="flex items-center space-x-2">
-        <Avatar
-          radius={avatarRounded}
+        <artist
+          radius={artistRounded}
           sizeClass={
             size === "normal"
               ? "h-6 w-6 text-sm"
               : "h-10 w-10 sm:h-11 sm:w-11 text-xl"
           }
-          imgUrl={author.avatar}
+          imgUrl={author.artist}
           userName={author.displayName}
         />
       </Link>

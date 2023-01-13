@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 const Page404: React.FC = () => (
   <div className="nc-Page404">
     <Helmet>
-      <title>404 || Blog Magazine React Template</title>
+      <title>404 || #1 Music Destribution Plug</title>
     </Helmet>
     <div className="container relative py-16 lg:py-20">
       {/* HEADER */}
@@ -18,7 +18,7 @@ const Page404: React.FC = () => (
           Oh Oh alaye You don Lost😂😂😂.{" "}
         </span>
         <ButtonPrimary href="/" className="mt-4">
-          Fly Home Page
+          Fly to Home Page
         </ButtonPrimary>
       </header>
     </div>

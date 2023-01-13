@@ -1,11 +1,11 @@
-import __posts from "./jsons/__posts.json";
+import __posts from "./jsons/__Featuredp.json";
 import __posts_news from "./jsons/__posts_news.json";
 import __postsGallery from "./jsons/__postsGallery.json";
 import __postsVideo from "./jsons/__postsVideo.json";
 import __postsAudio from "./jsons/__postsAudio.json";
 import { DEMO_CATEGORIES } from "./taxonomies";
 import { PostDataType } from "./types";
-import { DEMO_AUTHORS } from "./authors";
+import { DEMO_AUTHORS } from "./artists";
 
 // FOR MAIN DEMO
 const DEMO_POSTS = __posts.map((post, index): PostDataType => {
