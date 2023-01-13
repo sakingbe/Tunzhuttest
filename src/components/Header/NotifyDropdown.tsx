@@ -1,5 +1,5 @@
 import { Popover, Transition } from "@headlessui/react";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import { Fragment } from "react";
 
 const solutions = [

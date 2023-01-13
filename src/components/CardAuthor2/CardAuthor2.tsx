@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { PostDataType } from "data/types";
 import { Link } from "react-router-dom";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 
 export interface CardAuthor2Props
   extends Pick<PostDataType, "date" | "author"> {

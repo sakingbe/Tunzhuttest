@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { PostAuthorType } from "data/types";
 import { NavLink } from "react-router-dom";
-import Avatar from "components/artist/artist";
+import Avatar from "components/Artist/Artist";
 
 export interface CardAuthorProps {
   className?: string;

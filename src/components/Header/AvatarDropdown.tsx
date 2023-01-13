@@ -1,5 +1,5 @@
 import { Popover, Transition } from "@headlessui/react";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import { artistImgs } from "contains/data";
 import { Fragment } from "react";
 import { Link } from "react-router-dom";

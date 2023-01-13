@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import { PostAuthorType } from "data/types";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import { NavLink } from "react-router-dom";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import NcImage from "components/NcImage/NcImage";
 
 export interface CardAuthorBox2Props {

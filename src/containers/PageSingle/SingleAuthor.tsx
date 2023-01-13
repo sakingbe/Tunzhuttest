@@ -1,4 +1,4 @@
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import { PostAuthorType } from "data/types";
 import React, { FC } from "react";
 import { Link } from "react-router-dom";

@@ -3,7 +3,7 @@ import NcImage from "components/NcImage/NcImage";
 import { PostDataType } from "data/types";
 import { Link } from "react-router-dom";
 import CategoryBadgeList from "components/CategoryBadgeList/CategoryBadgeList";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import PostTypeFeaturedIcon from "components/PostTypeFeaturedIcon/PostTypeFeaturedIcon";
 
 export interface Card14Props {

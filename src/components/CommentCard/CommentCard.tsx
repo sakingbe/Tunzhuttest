@@ -1,5 +1,5 @@
 import React, { FC, useRef, useState } from "react";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import NcDropDown from "components/NcDropDown/NcDropDown";
 import CommentCardLikeReplyContainer from "containers/CommentCardLikeReplyContainer/CommentCardLikeReplyContainer";
 import { PostAuthorType } from "data/types";

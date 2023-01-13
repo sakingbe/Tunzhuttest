@@ -6,7 +6,7 @@ import ButtonPrimary from "components/Button/ButtonPrimary";
 import { DEMO_AUTHORS } from "data/artists";
 import Nav from "components/Nav/Nav";
 import NavItem from "components/NavItem/NavItem";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import SocialsList from "components/SocialsList/SocialsList";
 import ArchiveFilterListBox from "components/ArchiveFilterListBox/ArchiveFilterListBox";
 import { Helmet } from "react-helmet";

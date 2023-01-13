@@ -1,6 +1,6 @@
 import React, { FC, useEffect, useRef, useState } from "react";
 import SocialsShare from "components/SocialsShare/SocialsShare";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import { SinglePageType } from "containers/PageSingle/PageSingle";
 import BookmarkContainer from "containers/BookmarkContainer/BookmarkContainer";
 import PostCardLikeContainer from "containers/PostCardLikeContainer/PostCardLikeContainer";

@@ -1,4 +1,4 @@
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import { _getPersonNameRd } from "contains/data";
 import React, { FC } from "react";
 

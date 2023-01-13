@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Link } from "react-router-dom";
-import artist from "components/artist/artist";
+import artist from "components/Artist/Artist";
 import { PostDataType } from "data/types";
 import PostCardSaveAction from "components/PostCardSaveAction/PostCardSaveAction";
 import PostCardMeta from "components/PostCardMeta/PostCardMeta";
