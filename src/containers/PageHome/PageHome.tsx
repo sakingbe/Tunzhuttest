@@ -16,7 +16,7 @@ import {
   DEMO_POSTS_VIDEO,
 } from "data/posts";
 import { DEMO_CATEGORIES } from "data/taxonomies";
-import { DEMO_AUTHORS } from "data/artists";
+import { DEMO_AUTHORS } from "data/artist";
 import SectionBecomeAnAuthor from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
 import SectionSliderNewCategories from "components/SectionSliderNewCategories/SectionSliderNewCategories";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";

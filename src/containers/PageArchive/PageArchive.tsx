@@ -15,7 +15,7 @@ import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import SectionGridCategoryBox from "components/SectionGridCategoryBox/SectionGridCategoryBox";
 import ButtonSecondary from "components/Button/ButtonSecondary";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
-import { DEMO_AUTHORS } from "data/artists";
+import { DEMO_AUTHORS } from "data/artist";
 
 export interface PageArchiveProps {
   className?: string;

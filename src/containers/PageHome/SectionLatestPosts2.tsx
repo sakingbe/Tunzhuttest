@@ -6,7 +6,7 @@ import { DEMO_POSTS } from "data/posts";
 import { DEMO_CATEGORIES, DEMO_TAGS } from "data/taxonomies";
 import { PostAuthorType, PostDataType, TaxonomyType } from "data/types";
 import WidgetCategories from "components/WidgetCategories/WidgetCategories";
-import { DEMO_AUTHORS } from "data/artists";
+import { DEMO_AUTHORS } from "data/artist";
 import WidgetAuthors from "components/WidgetAuthors/WidgetAuthors";
 import WidgetPosts from "components/WidgetPosts/WidgetPosts";
 import Pagination from "components/Pagination/Pagination";

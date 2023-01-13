@@ -1,5 +1,5 @@
 import { artistColors } from "contains/contants";
-import { artistImgs, _getartistRd } from "contains/data";
+import { artistImgs, _getArtistRd } from "contains/infomation";
 import React, { FC } from "react";
 
 export interface artistProps {
@@ -14,7 +14,7 @@ const artist: FC<artistProps> = ({
   containerClassName = "ring-1 ring-white dark:ring-neutral-900",
   sizeClass = "h-6 w-6 text-sm",
   radius = "rounded-md",
-  imgUrl = _getartistRd(),
+  imgUrl = _getArtistRd(),
   userName,
 }) => {
   const url = imgUrl || "";

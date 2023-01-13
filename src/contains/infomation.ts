@@ -1,16 +1,16 @@
-import artist1 from "data/artists/kurdiklymax.jpg";
-import artist2 from "data/artists/2.jpg";
-import artist3 from "data/artists/3.jpg";
-import artist4 from "data/artists/4.jpg";
-import artist6 from "data/artists/6.jpg";
-import artist7 from "data/artists/7.jpg";
-import artist8 from "data/artists/8.jpg";
-import artist9 from "data/artists/9.jpg";
-import artist11 from "data/artists/11.jpg";
-import artist12 from "data/artists/12.jpg";
-import artist13 from "data/artists/13.jpg";
-import artist14 from "data/artists/14.jpg";
-import artist15 from "data/artists/15.jpg";
+import artist1 from "data/artist/kurdiklymax.jpg";
+import artist2 from "data/artist/2.jpg";
+import artist3 from "data/artist/3.jpg";
+import artist4 from "data/artist/4.jpg";
+import artist6 from "data/artist/6.jpg";
+import artist7 from "data/artist/7.jpg";
+import artist8 from "data/artist/8.jpg";
+import artist9 from "data/artist/9.jpg";
+import artist11 from "data/artist/11.jpg";
+import artist12 from "data/artist/12.jpg";
+import artist13 from "data/artist/13.jpg";
+import artist14 from "data/artist/14.jpg";
+import artist15 from "data/artist/15.jpg";
 
 export const artistImgs = [
   artist1,
@@ -130,14 +130,14 @@ function _getImgHightQualityRd() {
 function _getTagNameRd() {
   return tagNames[Math.floor(Math.random() * tagNames.length)];
 }
-function _getartistRd() {
+function _getArtistRd() {
   return artistImgs[Math.floor(Math.random() * artistImgs.length)];
 }
 
 export {
   _getImgRd,
   _getTagNameRd,
-  _getartistRd,
+  _getArtistRd,
   _getImgHightQualityRd,
   _getTitleRd,
   _getPersonNameRd,

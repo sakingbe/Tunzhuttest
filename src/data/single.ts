@@ -1,8 +1,8 @@
 import { SinglePageType } from "containers/PageSingle/PageSingle";
 import { DEMO_TAGS } from "./taxonomies";
 import __comments from "./jsons/__comments.json";
-import a10 from "./artists/11.jpg";
-import { DEMO_AUTHORS } from "./artists";
+import a10 from "./artist/11.jpg";
+import { DEMO_AUTHORS } from "./artist";
 import { CommentType } from "components/CommentCard/CommentCard";
 import podcastImg from "images/podcast.jpg";
 

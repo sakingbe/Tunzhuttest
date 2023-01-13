@@ -5,7 +5,7 @@ import __postsVideo from "./jsons/__postsVideo.json";
 import __postsAudio from "./jsons/__postsAudio.json";
 import { DEMO_CATEGORIES } from "./taxonomies";
 import { PostDataType } from "./types";
-import { DEMO_AUTHORS } from "./artists";
+import { DEMO_AUTHORS } from "./artist";
 
 // FOR MAIN DEMO
 const DEMO_POSTS = __posts.map((post, index): PostDataType => {

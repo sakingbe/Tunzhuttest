@@ -3,7 +3,7 @@ import { DEMO_POSTS } from "data/posts";
 import { PostAuthorType, PostDataType } from "data/types";
 import Pagination from "components/Pagination/Pagination";
 import ButtonPrimary from "components/Button/ButtonPrimary";
-import { DEMO_AUTHORS } from "data/artists";
+import { DEMO_AUTHORS } from "data/artist";
 import Nav from "components/Nav/Nav";
 import NavItem from "components/NavItem/NavItem";
 import artist from "components/Artist/Artist";

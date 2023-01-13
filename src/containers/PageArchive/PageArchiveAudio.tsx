@@ -14,7 +14,7 @@ import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import SectionGridCategoryBox from "components/SectionGridCategoryBox/SectionGridCategoryBox";
 import ButtonSecondary from "components/Button/ButtonSecondary";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
-import { DEMO_AUTHORS } from "data/artists";
+import { DEMO_AUTHORS } from "data/artist";
 import Card16Podcast from "components/Card16Podcast/Card16Podcast";
 import Card15Podcast from "components/Card15Podcast/Card15Podcast";
 

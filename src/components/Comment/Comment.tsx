@@ -1,5 +1,5 @@
 import artist from "components/Artist/Artist";
-import { _getPersonNameRd } from "contains/data";
+import { _getPersonNameRd } from "contains/infomation";
 import React, { FC } from "react";
 
 export interface CommentProps {

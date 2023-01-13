@@ -13,7 +13,7 @@ import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import SectionGridCategoryBox from "components/SectionGridCategoryBox/SectionGridCategoryBox";
 import ButtonSecondary from "components/Button/ButtonSecondary";
 import SectionSliderNewAuthors from "components/SectionSliderNewAthors/SectionSliderNewAuthors";
-import { DEMO_AUTHORS } from "data/artists";
+import { DEMO_AUTHORS } from "data/artist";
 import Card10V2 from "components/Card10/Card10V2";
 
 export interface PageArchiveVideoProps {

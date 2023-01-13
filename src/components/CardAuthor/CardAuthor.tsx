@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import { PostAuthorType } from "data/types";
 import { NavLink } from "react-router-dom";
-import Avatar from "components/Artist/Artist";
+import artist from "components/Artist/Artist";
 
 export interface CardAuthorProps {
   className?: string;
@@ -9,18 +9,18 @@ export interface CardAuthorProps {
 }
 
 const CardAuthor: FC<CardAuthorProps> = ({ className = "", author }) => {
-  const { displayName, href = "/", avatar, jobName } = author;
+  const { displayName, href = "/", artist, jobName } = author;
   return (
     <NavLink
       to={href}
       className={`nc-CardAuthor flex items-center ${className}`}
       data-nc-id="CardAuthor"
     >
-      <Avatar
+      <artist
         sizeClass="h-10 w-10 text-base"
         containerClassName="flex-shrink-0 mr-4"
         radius="rounded-full"
-        imgUrl={avatar}
+        imgUrl={artist}
         userName={displayName}
       />
       <div>
